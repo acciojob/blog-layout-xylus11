@@ -1,21 +1,26 @@
-/*  your css code here. If applicable */
 body{
 	background-color:lightgray;
 }
-.container{
-	flex-wrap:wrap;
+.blog-column{
 	display:flex;
-	justify-content:space-between;
-	align-item:center;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	gap:10px;
 	
 }
-.blog{
-	text-align:center;
-	font-size:10px;
-	height:100px;
-	width:90px;
+.item{
+   width:150px;
 	background-color:white;
+	
+}
+h2,a{
+	text-align:center;
+}
+a{
+	text-decoration-line:none;
+	color:black;
 }
 li{
 	list-style-type:none;
+	
 }
