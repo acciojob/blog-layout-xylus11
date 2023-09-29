@@ -3,12 +3,13 @@ body{
 }
 .blog-column{
 	display:flex;
+	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
 	gap:10px;
 	
 }
-.item{
+#item1,#item2,#item4,#item3{
    width:150px;
 	background-color:white;
 	
