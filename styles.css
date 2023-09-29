@@ -2,7 +2,7 @@
 body{
 	margin:0px;
 }
-.blog{
+.blog-column{
 	display:grid;
 	gap:10px;
 	width:100vw;
