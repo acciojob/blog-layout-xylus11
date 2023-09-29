@@ -1,15 +1,27 @@
-/*  your css code here. If applicable */
 body{
-	background-color:rgb(226,225,224);
+	background-color:lightgray;
 }
-.container{
-	display:grid;
-	grid-template-rows:repeat(1,1fr);
-	grid-template-columns:repeat(3, 1fr);
-	gap:20px;
+.blog-column{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	gap:10px;
+	
+}
+#item1,#item2,#item4,#item3{
+   width:150px;
+	background-color:white;
+	
+}
+h2,a{
 	text-align:center;
 }
-.container>div{
-	background-color:white;
-/* 	gap:20px; */
+a{
+	text-decoration-line:none;
+	color:black;
+}
+li{
+	list-style-type:none;
+	
 }
