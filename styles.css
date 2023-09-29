@@ -7,7 +7,7 @@
 }
 
 /* Style each column */
-.column {
+.column1,.column2,.column3,.column4 {
   background-color: #f5f5f5;
   border: 1px solid #ddd;
   padding: 20px;
