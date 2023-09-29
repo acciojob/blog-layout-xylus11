@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+body{
+	margin:0px;
+}
+.blog{
+	display:grid;
+	gap:10px;
+	width:100vw;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+.item{
+	display:flex;
+	justify-content:center;
+	background-color:darkgray;
+	color:black;
+	font-family:arial;
+	width:200px;
+	height:300px;
+	
+}
