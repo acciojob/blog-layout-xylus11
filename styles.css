@@ -1,27 +1,38 @@
+/*  your css code here. If applicable */
 body{
 	background-color:lightgray;
 }
-.blog-column{
+.main-div{
 	display:flex;
+	justify-content:space-around;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:space-evenly;
-	gap:10px;
-	
 }
-#item1,#item2,#item4,#item3{
-   width:150px;
+.news{
+	width:300px;
+	height:300px;
 	background-color:white;
-	
-}
-h2,a{
 	text-align:center;
+	margin-top:20px;
 }
-a{
-	text-decoration-line:none;
-	color:black;
+.reviews{
+	width:300px;
+	height:300px;
+	background-color:white;
+	text-align:center;
+	margin-top:20px;
 }
-li{
-	list-style-type:none;
-	
+.tips{
+	width:300px;
+	height:300px;
+	background-color:white;
+	text-align:center;
+	margin-top:20px;
+}
+.interviews{
+	width:300px;
+	height:300px;
+	background-color:white;
+	text-align:center;
+	margin-top:20px;
 }
