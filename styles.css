@@ -1,5 +1,5 @@
 /* Apply styles to the blog layout */
-.blog-layout {
+.blog-column {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
